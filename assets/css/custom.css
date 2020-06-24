@@ -1,0 +1,281 @@
+body
+{
+    overflow-x: hidden;
+}
+
+@font-face 
+{
+    font-family: Avenir;
+    src: url(../fonts/Avenir.otf);
+}
+
+@font-face 
+{
+    font-family: Century_Gothic;
+    src: url(../fonts/CenturyGothicRegular.ttf);
+}
+
+@font-face 
+{
+    font-family: Century_Gothic_Bold;
+    src: url(../fonts/CenturyGothicBold.ttf);
+}
+
+
+.active
+{
+    color: #D3591C !important;
+}
+
+.carousel,
+.item,
+.active {
+    height: 100%;
+}
+
+.carousel-inner {
+    height: 100vh;
+}
+
+/* Background images are set within the HTML using inline CSS, not here */
+
+.fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+#indicators
+{
+   left: 95vw;
+}
+
+.Community_Conservation
+{
+    font-family: Century_Gothic_Bold;
+    font-size: 35px;
+    text-align: center;
+    font-weight: 900;
+    color: #28422C;
+    text-shadow: none;
+    position: relative;
+    top: 1.5vh;
+}
+
+.carousel-caption
+{
+    position: relative;
+    top: -19vh;
+    left: 0vw;
+    width: 100vw;
+    background-color: rgba(255,255,255,0.65);
+}
+
+#readMoreLandingPage
+{
+    text-align: center;
+    position: relative;
+    left: 10vw;
+    top: 4vh;
+    height: 8vh;
+    width: 12vw;
+    font-family: Century_Gothic;
+    font-size: 25px;
+}
+
+#CurrentProjectsButtons
+{
+    text-align: center;
+    position: relative;
+    top: 4vh;
+    font-family: Century_Gothic;
+    font-size: 25px;
+}
+
+.divider
+{
+    width: 100vw;
+    margin-top: 80px;
+}
+
+.divider2
+{
+    width: 100vw;
+    margin-top: 0px;
+}
+
+
+.text-block-gallery 
+{
+    position: absolute;
+    width: 100%;
+    bottom: 30%;
+    background-color: rgba(40, 66, 44, 0.55);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+
+.gallery-text
+{
+    color: white;
+    text-align: center;
+    font-size: 1.4vw;
+}
+
+.gallery-btn
+{
+    position: absolute !important;
+    top: 80%;
+    right: 5%;
+}
+
+#newProjectLanding
+{
+    width: 40vw;
+    margin-left: 5vw;
+}
+
+.left-20
+{
+    left: 20vw !important;
+}
+
+.contact-section
+{
+    background-color: #28422C !important;
+    border: none !important;
+}
+
+#sabiTitleWhite
+{
+    color: white;
+}
+
+.contactText
+{
+    color: white !important;
+}
+
+.margin-top-5
+{
+    margin-top: 5vw;
+}
+
+.label
+{
+    font-family: Avenir !important;
+    color: white !important;
+    font-size: 1.2vw !important;
+}
+
+.revertedButton
+{
+	border: 0;
+	color: #fff;
+	font-size: 14px;
+	cursor: pointer;
+	font-weight: 400;
+	padding: 6px 13px;
+	position: relative;
+	background: #28422C;
+	white-space: nowrap;
+	display: inline-block;
+    text-decoration: none;
+    border: solid 1px #fff !important;
+}
+
+.revertedButton:hover
+{
+    color: #28422C !important;
+    background: #fff;
+    border: solid 1px #28422C !important;
+}
+
+.contactButton
+{
+    left: 40% !important;
+    height: 8vh !important;
+    margin-bottom: 5vh;
+}
+
+.roundForm
+{
+    -moz-border-radius: 3px !important;
+    -webkit-border-radius: 3px !important;
+    -khtml-border-radius: 3px !important;
+    border-radius:3px !important;
+}
+
+.padding-2
+{
+    padding: 2vw;
+}
+
+.padding-5
+{
+    padding-right: 15vw;
+    padding-left: 15vw;
+}
+
+#socials
+{
+    position: relative;
+    top: 5vh;
+    text-align: right;
+}
+
+.footerText
+{
+    text-align: right;
+}
+
+.whoWeAreText
+{
+    color: black;
+}
+
+.donateDetails
+{
+    background-color: #B99368;
+}
+
+.smallDonate
+{
+    font-size: medium;
+}
+
+#feelingGenerousText
+{
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+#donateButton
+{
+    text-align: center;
+    font-family: Century_Gothic;
+    font-size: 25px;
+    line-height: 6vh;
+    margin-left: 1vw;
+}
+
+.no-padding
+{
+    padding: 0 !important;
+}
+.row
+{
+    overflow-y: hidden;
+}
+
+#vertical-center-generous
+{
+    margin-top: 3vw;
+}
