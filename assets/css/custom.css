@@ -79,10 +79,8 @@ body
 {
     text-align: center;
     position: relative;
-    left: 10vw;
-    top: 4vh;
-    height: 8vh;
-    width: 12vw;
+    left: 12vw;
+    top: 2vh;
     font-family: Century_Gothic;
     font-size: 25px;
 }
