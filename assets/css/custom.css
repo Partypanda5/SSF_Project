@@ -3,6 +3,11 @@ body
     overflow-x: hidden;
 }
 
+.wrapper
+{
+    overflow-x: hidden;
+}
+
 @font-face 
 {
     font-family: Avenir;
