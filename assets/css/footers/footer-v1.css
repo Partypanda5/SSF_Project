@@ -2,7 +2,7 @@
 ------------------------------------*/
 footer
 {
-	background-color: #F7F7F7;
+	background-color: #fff;
 }
 
 .footer-v1 .footer {
@@ -11,11 +11,11 @@ footer
 }
 
 .footer-v1 .footer p {
-	color: #eee;
+	color: #fff;
 }
 
 .footer-v1 .footer h2 {
-	color: #eee;
+	color: #fff;
 	font-size: 18px;
 	font-weight: 200;
 }
@@ -28,7 +28,7 @@ footer
 .footer-v1 address,
 .footer-v1 .link-list a,
 .footer-v1 .link-list i {
-	color: #eee;
+	color: #fff;
 }
 
 .footer-v1 address {
@@ -57,7 +57,7 @@ footer
 }
 
 .footer-v1 .copyright p {
-	color: #eee;
+	color: #fff;
 	margin-top: 14px;
 }
 
