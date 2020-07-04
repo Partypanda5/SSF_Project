@@ -99,7 +99,7 @@
 		<!--=== End Header v6 ===-->
 
 	<!--=== Carousel 100% Fullscreen ===-->
-		<div id="carousel-example" class="carousel slide">
+		<div id="carousel-example" class="carousel slide" data-pause="false" data-interval="3000" data-ride="carousel">
 			<!-- Indicators -->
 			<ol id="indicators" class="carousel-indicators">
 				<li data-target="#carousel-example" data-slide-to="0" class="active"></li>
@@ -113,21 +113,21 @@
 					<!-- Slider 1. -->
 					<div class="fill" style="background-image:url('assets/img/General/Huntington3.jpg')"></div>
 					<div class="carousel-caption">
-						<p class="Community_Conservation">Connecting Community And Conservation</p>
+						<p class="Community_Conservation">Growing Custodians Of Our Natural Heritage</p>
 					</div>
 				</div>
 				<div class="item">
 					<!-- Slider 2. -->
 					<div class="fill" style="background-image:url('assets/img/General/Huntington2.jpg');"></div>
 					<div class="carousel-caption">
-						<p class="Community_Conservation">Connecting Community And Conservation</p>
+						<p class="Community_Conservation">Growing Custodians Of Our Natural Heritage</p>
 					</div>
 				</div>
 				<div class="item">
 					<!-- Slider 3. -->
 					<div class="fill" style="background-image:url('assets/img/General/Huntington1.jpg');"></div>
 					<div class="carousel-caption">
-						<p class="Community_Conservation">Connecting Community And Conservation</p>
+						<p class="Community_Conservation">Growing Custodians Of Our Natural Heritage</p>
 					</div>
 				</div>
 			</div>
@@ -145,23 +145,13 @@
 	<!--=== Start Who We Are Section ===-->
 	<div class="container-fluid content">
 		<div class="text-center margin-bottom-60">
-			<h1 id="sabiTitle">Who We Are</h1>
+			<img src="assets/img/SSF_Logo.png" alt="">
 		</div>
 		<div class="row">
             <div class="col-md-2"></div>
                 <div class="col-md-8">
                     <p class="text-center whoWeAreText margin-bottom-30">
-						The Sabi Sabi Foundation was formed to grow custodians of our natural heritage. Custodianship
-						through education, employment and conservation.
-                    </p>
-                </div>
-            <div class="col-md-2"></div>
-        </div>   <!-- end row -->
-
-        <div class="row">
-            <div class="col-md-2"></div>
-                <div class="col-md-8">
-                    <p class="text-center whoWeAreText margin-bottom-30">
+						The Sabi Sabi Foundation's vision is to grow custodians of our natural heritage - to create custodianship through education, employment and conservation.
 						Our mission is to coordinate poverty relief in line with identified needs, support the provision of quality education, bridge access to employment, nurture the development of future leaders, protecte and conserve our indigenous fauna and flora.
                     </p>
                 </div>
@@ -177,13 +167,13 @@
 		</div>
 		<div class="row">
 			<div class="col-md-12 md-margin-bottom-50">
-				<p class="text-center contactText">We welcome any questions you may have in support of our various initiatives, should you wish to be
+				<p class="contactText">We welcome any questions you may have in support of our various initiatives, should you wish to be
 					involved, or make a donation. Please make contact with the Sabi Sabi Foundation and we will guide
-					you through the process and answer any queries you may have. <br/> <br/>
-					info@sabisabifoundation.org.za <br/> <br/>
-					Alternatively, please complete the Contact Form and we will have our Trust Administrator make
-					contact with you directly.
-				</p>
+					you through the process and answer any queries you may have. <br/> <br/></p>
+
+				<p class="contactText text-center">info@sabisabifoundation.org.za <br/> <br/></p>
+
+				<p class="contactText">Alternatively, please complete the Contact Form and we will have our Trust Administrator make contact with you directly.</p>
 			</div>
 		</div><!--/end row-->
 		<form action="assets/php/demo-contacts-process.php" method="post" id="sky-form3" class="sky-form contact-section">
@@ -256,7 +246,7 @@
                     Should you like to donate please use the information below or contact:
                 </p>
 
-                <p class="text-center"><strong>info@sabisabifoundation.com</strong></p>
+                <p class="text-center"><strong>info@sabisabifoundation.org.za</strong></p>
 			</div>
 		</div><!--/end row-->
     </div>
@@ -290,7 +280,7 @@
                 Account Name: Investec Bank <br/>
                 Reference: 10012440983<br/>
                 For any information required or enquiries:<br/>
-                info@sabisabifoundation.com
+                info@sabisabifoundation.org.za
             </p>
         </div>
     </div>
@@ -306,12 +296,21 @@
 <footer class="page-footer font-small unique-color-dark pt-4">
 	<!-- Footer Elements -->
 	<div class="container">
+		<div class="row overflowYShow">
+			<div class="col-md-6"></div>
+			<div class="col-md-6">
+				<a href="#">
+					<img id="natGeoLogo" src="assets/img/NatGeoLogo.png" alt="">
+				</a>
+			</div>
+		</div>
 		<div class="row">
 			<div class="col-md-6">
 			<a href="https://www.sabisabi.com/"><img class="img-responsive padding-2" src="assets/img/New_SS_Logo.jpg" alt=""> </a>
 			</div>
 			<div id="socials" class="col-md-6">
-					<a href="https://www.linkedin.com/company/">
+
+					<a href="https://www.instagram.com/">
 						<i class="fa fa-2x fa-fw fa-instagram margin-top-2"></i>
 					</a>
 
@@ -327,29 +326,22 @@
 				</div>
 			</div><!--/end row-->
 		</div>
-	</div>
 </footer>
   <!-- Footer -->
 
 </div><!--/wrapper-->
-
 	<!-- JS Global Compulsory -->
 	<script type="text/javascript" src="assets/plugins/jquery/jquery.min.js"></script>
-	<script type="text/javascript" src="assets/plugins/jquery/jquery-migrate.min.js"></script>
 	<script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
 	<!-- JS Implementing Plugins -->
 	<script type="text/javascript" src="assets/plugins/back-to-top.js"></script>
-	<script type="text/javascript" src="assets/plugins/jquery.parallax.js"></script>
-
 	<!-- JS Customization -->
 	<script type="text/javascript" src="assets/js/custom.js"></script>
 	<!-- JS Page Level -->
 	<script type="text/javascript" src="assets/js/app.js"></script>
-	<script type="text/javascript" src="assets/js/plugins/style-switcher.js"></script>
 	<script type="text/javascript">
 		jQuery(document).ready(function() {
 			App.init();
-			StyleSwitcher.initStyleSwitcher();
 		});
 		
 	</script>
@@ -358,6 +350,5 @@
 	<script src="assets/plugins/html5shiv.js"></script>
 	<script src="assets/plugins/placeholder-IE-fixes.js"></script>
 	<![endif]-->
-
 </body>
 </html>

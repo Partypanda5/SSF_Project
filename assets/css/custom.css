@@ -118,6 +118,13 @@ body
     margin-top: 0px;
 }
 
+.divider4
+{
+    width: 100vw;
+    margin-top: 1px;
+}
+
+
 .text-block-gallery 
 {
     position: absolute;
@@ -244,6 +251,7 @@ body
 .whoWeAreText
 {
     color: black;
+    font-size: 1vw;
 }
 
 .donateDetails
@@ -276,6 +284,7 @@ body
     font-size: 25px;
     line-height: 6vh;
     margin-left: 1vw;
+    margin-bottom: 1vw;
 }
 
 .no-padding
@@ -290,4 +299,16 @@ body
 #vertical-center-generous
 {
     margin-top: 3vw;
+}
+
+#natGeoLogo
+{
+    float: right;
+    position: relative;
+    top: 12vh;
+}
+
+.overflowYShow
+{
+    overflow-y: visible !important;
 }
