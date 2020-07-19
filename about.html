@@ -49,7 +49,7 @@
 				<div class="container">
 
 					<div class="menu-container">
-						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+						<button id="responsiveButton" type="button" class="navbar-toggle" data-toggle="collapse" onclick="openNav()">
 							<span class="sr-only">Toggle navigation</span>
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
@@ -111,14 +111,14 @@
 			<div class="carousel-inner">
 				<div class="item active">
 					<!-- Slider 1. -->
-					<div class="fill" style="background-image:url('assets/img/General/Huntington1.jpg')"></div>
+					<div class="fill" style="background-image:url('assets/img/General/Huntington2.jpg')"></div>
 					<div class="carousel-caption">
 						<p class="Community_Conservation">Growing Custodians Of Our Natural Heritage</p>
 					</div>
 				</div>
 				<div class="item">
 					<!-- Slider 2. -->
-					<div class="fill" style="background-image:url('assets/img/General/Huntington2.jpg');"></div>
+					<div class="fill" style="background-image:url('assets/img/General/Huntington1.jpg');"></div>
 					<div class="carousel-caption">
 						<p class="Community_Conservation">Growing Custodians Of Our Natural Heritage</p>
 					</div>
@@ -325,7 +325,7 @@
 		</div>
 		<div class="row">
 			<div class="col-md-6">
-			<a href="https://www.sabisabi.com/"><img class="img-responsive padding-2" src="assets/img/New_SS_Logo.jpg" alt=""> </a>
+			<a href="https://www.sabisabi.com/"><img class="img-responsive padding-2 sabisabiLogoFooter" src="assets/img/New_SS_Logo.jpg" alt=""> </a>
 			</div>
 			<div id="socials" class="col-md-6">
 
@@ -348,6 +348,25 @@
 </footer>
   <!-- Footer -->
 
+  
+  <!-- The responsive overlay -->
+<div id="responsiveNavbar" class="overlay">
+
+	<!-- Button to close the overlay navigation -->
+	<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+	<img id="responsiveNavBarLogo" class="default-logo img-responsive" src="assets/img/SSF_Logo.png" alt="Logo">
+  
+	<!-- Overlay content -->
+	<div class="overlay-content">
+	  <a href="index.html">Home</a>
+	  <a href="about.html">About</a>
+	  <a href="current_projects.html">Current Projects</a>
+	  <a href="new_projects.html">New Projects</a>
+	  <a href="contact.html">Contact</a>
+	</div>
+  
+</div>
 </div><!--/wrapper-->
 
 	<!-- JS Global Compulsory -->

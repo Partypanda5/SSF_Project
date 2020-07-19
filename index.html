@@ -49,7 +49,7 @@
 				<div class="container">
 
 					<div class="menu-container">
-						<button type="button" class="navbar-toggle" data-toggle="collapse">
+						<button id="responsiveButton" type="button" class="navbar-toggle" data-toggle="collapse" onclick="openNav()">
 							<span class="sr-only">Toggle navigation</span>
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
@@ -99,7 +99,7 @@
 		<!--=== End Header v6 ===-->
 
 	<!--=== Carousel 100% Fullscreen ===-->
-		<div id="carousel-example" class="carousel slide" data-pause="false" data-interval="3000" data-ride="carousel">
+		<div id="carousel-example" class="carousel slide" data-pause="false" data-interval="4000" data-ride="carousel">
 			<!-- Indicators -->
 			<ol id="indicators" class="carousel-indicators">
 				<li data-target="#carousel-example" data-slide-to="0" class="active"></li>
@@ -194,7 +194,7 @@
 
 <!-- Full Width Gallery-->
 		<div class="row no-gutter">
-			<div class="col-sm-4 sm-margin-bottom-30">
+			<div class="col-sm-4 sm-margin-bottom-30 noMarginBottomTablet"">
 				<a rel="gallery4" class="fancybox">
 					<span><img class="img-responsive" src="assets/img/Mazinyane/Classroom_Landing.jpg" alt="">
 						<div class="text-block-gallery">
@@ -204,7 +204,7 @@
 					</span>
 				</a>
 			</div>
-			<div class="col-sm-4 sm-margin-bottom-30">
+			<div class="col-sm-4 sm-margin-bottom-30 noMarginBottomTablet">
 				<a rel="gallery4" class="fancybox">
 					<span><img class="img-responsive" src="assets/img/GWF/GWF-2_Landing.jpg" alt="">
 						<div class="text-block-gallery">
@@ -214,11 +214,11 @@
 					</span>
 				</a>
 			</div>
-			<div class="col-sm-4 sm-margin-bottom-30">
+			<div class="col-sm-4 sm-margin-bottom-30 noMarginBottomTablet">
 				<a rel="gallery4" class="fancybox">
 					<span><img class="img-responsive" src="assets/img/Swavana/Swavana_Landing.jpg" alt="">
 						<div class="text-block-gallery">
-							<h2 class="gallery-text">Swa Vana Care Centre <br/> (Huntington)  </h2>
+							<h2 class="gallery-text">Swa Vana Care <br/> Centre (Huntington)  </h2>
 						</div>
 						<a href="current_projects.html" class="gallery-btn btn-u btn-brd btn-brd-hover rounded btn-u-lg" type="button">Read More</a>
 					</span>
@@ -226,31 +226,31 @@
 			</div>
 		</div>
 		<div class="row no-gutter">
-			<div class="col-sm-4 sm-margin-bottom-30">
+			<div class="col-sm-4 sm-margin-bottom-30 noMarginBottomTablet">
 				<a rel="gallery4" class="fancybox">
 					<span><img class="img-responsive" src="assets/img/Dreamfields/Dreamfields1_Landing.jpg" alt="">
 						<div class="text-block-gallery">
-							<h2 class="gallery-text">The Dreamfields Project <br></h2>
+							<h2 class="gallery-text">The Dreamfields <br/> Project <br></h2>
 						</div>
 						<a href="current_projects.html" class="gallery-btn btn-u btn-brd btn-brd-hover rounded btn-u-lg" type="button">Read More</a>
 					</span>
 				</a>
 			</div>
-			<div class="col-sm-4 sm-margin-bottom-30">
+			<div class="col-sm-4 sm-margin-bottom-30 noMarginBottomTablet">
 				<a rel="gallery4" class="fancybox">
 					<span><img class="img-responsive" src="assets/img/Chefs/Bush-Lodge-Chefs_Landing.jpg" alt="">
 						<div class="text-block-gallery">
-							<h2 class="gallery-text">Sabi Sabi Chef <br/> Mentorship Programme</h2>
+							<h2 class="gallery-text">Sabi Sabi Chef Mentorship <br/> Programme</h2>
 						</div>
 						<a href="current_projects.html" class="gallery-btn btn-u btn-brd btn-brd-hover rounded btn-u-lg" type="button">Read More</a>
 					</span>
 				</a>
 			</div>
-			<div class="col-sm-4 sm-margin-bottom-30">
+			<div class="col-sm-4 sm-margin-bottom-30 noMarginBottomTablet">
 				<a rel="gallery4" class="fancybox">
 					<span><img class="img-responsive" src="assets/img/General/community.jpg" alt="">
 						<div class="text-block-gallery">
-							<h2 class="gallery-text">Community Visits <br></h2>
+							<h2 class="gallery-text">Community <br/> Visits <br></h2>
 						</div>
 						<a href="current_projects.html" class="gallery-btn btn-u btn-brd btn-brd-hover rounded btn-u-lg" type="button">Read More</a>
 					</span>
@@ -276,7 +276,7 @@
 		</div>
 		<div class="row overflowYShow">
 			<div class="col-md-6">
-				<img class="img-responsive" src="assets/img/Water/water1.jpg" alt="">
+				<img id="newProjectsImage" class="img-responsive" src="assets/img/Water/water1.jpg" alt="">
 			</div>
 			<div class="col-md-6">
 				<p id="newProjectLanding" class="text-center">
@@ -357,7 +357,7 @@
 				</section>
 			</fieldset>
 
-			<button id="readMoreLandingPage" class="btn-u revertedButton contactButton rounded btn-u-lg text-center" type="submit">Send</button>
+			<button id="landingPageContactButton" class="btn-u revertedButton contactButton rounded btn-u-lg text-center landingPageContactButton" type="submit">Send</button>
 
 			<div class="message">
 				<i class="rounded-x fa fa-check"></i>
@@ -387,7 +387,7 @@
 		</div>
 		<div class="row">
 			<div class="col-md-6">
-			<a href="https://www.sabisabi.com/"><img class="img-responsive padding-2" src="assets/img/New_SS_Logo.jpg" alt=""> </a>
+			<a href="https://www.sabisabi.com/"><img class="img-responsive padding-2 sabisabiLogoFooter" src="assets/img/New_SS_Logo.jpg" alt=""> </a>
 			</div>
 			<div id="socials" class="col-md-6">
 
@@ -410,6 +410,25 @@
 </footer>
   <!-- Footer -->
 
+
+  <!-- The responsive overlay -->
+<div id="responsiveNavbar" class="overlay">
+
+	<!-- Button to close the overlay navigation -->
+	<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+	<img id="responsiveNavBarLogo" class="default-logo img-responsive" src="assets/img/SSF_Logo.png" alt="Logo">
+  
+	<!-- Overlay content -->
+	<div class="overlay-content">
+	  <a href="index.html">Home</a>
+	  <a href="about.html">About</a>
+	  <a href="current_projects.html">Current Projects</a>
+	  <a href="new_projects.html">New Projects</a>
+	  <a href="contact.html">Contact</a>
+	</div>
+  
+</div>
 </div><!--/wrapper-->
 
 	<!-- JS Global Compulsory -->
