@@ -26,6 +26,10 @@ body
     src: url(../fonts/CenturyGothicBold.ttf);
 }
 
+.mobile-logo
+{
+    display: none;
+}
 
 .active
 {
@@ -161,6 +165,12 @@ body
 }
 
 #newProjectLanding
+{
+    width: 40vw;
+    margin-left: 5vw;
+}
+
+#newProjectLanding2
 {
     width: 40vw;
     margin-left: 5vw;
@@ -328,6 +338,64 @@ body
     overflow-y: visible !important;
 }
 
+/* The Overlay (background) */
+.overlay {
+    /* Height & width depends on how you want to reveal the overlay (see JS below) */   
+    height: 0;
+    width: 100%;
+    position: fixed; /* Stay in place */
+    z-index: 999; /* Sit on top */
+    left: 0;
+    top: 0;
+    background-color:white; /* Black fallback color */
+    background-color: white; /* Black w/opacity */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+  }
+  
+  /* Position the content inside the overlay */
+  .overlay-content {
+    position: relative;
+    top: 25%; /* 25% from the top */
+    width: 100%; /* 100% width */
+    text-align: center; /* Centered text/links */
+    margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+  }
+  
+  /* The navigation links inside the overlay */
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #28422C;
+    font-family: Century_Gothic;
+    display: block; /* Display block instead of inline */
+    transition: 0.3s; /* Transition effects on hover (color) */
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+  }
+  
+  /* Position the close button (top right corner) */
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
+  
+  /* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+  @media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+      font-size: 40px;
+      top: 15px;
+      right: 35px;
+    }
+  }
+
 
 @media (min-width: 768px) and (max-width: 1024px) 
 {
@@ -457,15 +525,21 @@ body
 }
 
 
-@media (max-width: 768px)
+@media (min-width: 700px) and (max-width: 768px) 
 {
     #newProjectLanding
     {
         width: 70vw;
         margin-left: 12vw;
-        margin-top: 5vh;
+        margin-top: 13vh;
     }
 
+    #newProjectLanding2
+    {
+        width: 70vw;
+        margin-left: 12vw;
+        margin-top: 3vh;
+    }
     
     .landingPageContactButton
     {
@@ -514,62 +588,205 @@ body
 
 }
 
-
-
-/* The Overlay (background) */
-.overlay {
-    /* Height & width depends on how you want to reveal the overlay (see JS below) */   
-    height: 0;
-    width: 100%;
-    position: fixed; /* Stay in place */
-    z-index: 999; /* Sit on top */
-    left: 0;
-    top: 0;
-    background-color:white; /* Black fallback color */
-    background-color: white; /* Black w/opacity */
-    overflow-x: hidden; /* Disable horizontal scroll */
-    transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
-  }
-  
-  /* Position the content inside the overlay */
-  .overlay-content {
-    position: relative;
-    top: 25%; /* 25% from the top */
-    width: 100%; /* 100% width */
-    text-align: center; /* Centered text/links */
-    margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
-  }
-  
-  /* The navigation links inside the overlay */
-  .overlay a {
-    padding: 8px;
-    text-decoration: none;
-    font-size: 36px;
-    color: #28422C;
-    font-family: Century_Gothic;
-    display: block; /* Display block instead of inline */
-    transition: 0.3s; /* Transition effects on hover (color) */
-  }
-  
-  /* When you mouse over the navigation links, change their color */
-  .overlay a:hover, .overlay a:focus {
-    color: #f1f1f1;
-  }
-  
-  /* Position the close button (top right corner) */
-  .overlay .closebtn {
-    position: absolute;
-    top: 20px;
-    right: 45px;
-    font-size: 60px;
-  }
-  
-  /* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
-  @media screen and (max-height: 450px) {
-    .overlay a {font-size: 20px}
-    .overlay .closebtn {
-      font-size: 40px;
-      top: 15px;
-      right: 35px;
+@media (min-width: 280px) and (max-width: 699px) 
+{
+    #indicators 
+    {
+        left: 90vw;
     }
-  }
+
+    .header-v6 .navbar-toggle .icon-bar
+    {
+        height: 3px;
+        width: 6vw;
+        background: #555;
+        margin-top: 4px;
+    }
+
+    .header-v6 .navbar-brand img 
+    {
+        max-width: 90%;
+        position: relative;
+        right: 10vw;
+        bottom: 15vh;
+    }
+
+    .navbar-brand {
+        height: 0px !important;
+    }
+
+    .mobile-logo
+    {
+        display: block;
+        position: relative;
+        height: 10vh;
+        width: auto;
+        top: 4vh;
+    }
+    #responsiveNavBarLogo
+    {
+        position: relative;
+        top: 20vh;
+    }
+
+    .overlay-content {
+        top: 15%; 
+        width: 100%; 
+        margin-top: 50px;
+      }
+
+      .carousel-caption
+      {
+          top: -30vh;
+      }
+
+      h1
+      {
+          font-size: 50px;
+          line-height: 1.1;
+      }
+
+      .left-align-mobile
+      {
+          text-align: left;
+      }
+
+      .gallery-text
+      {
+          font-size: 5vw;
+          line-height: 8vw;
+      }
+
+      .gallery-btn 
+      {
+        top: 80%;
+        right: 1%;
+      }
+
+      .noMarginBottomTablet
+      {
+        margin-bottom: 0;
+      }
+
+     .divider2 
+    {
+        width: 100vw;
+        height: 2vh;
+        margin-top: -20px;
+    }
+
+    .divider
+    {
+        width: 100vw;
+        height: 1.5vh;
+        margin-top: 80px;
+    }
+
+    .divider3 
+    {
+        width: 100vw;
+        margin-top: 20px;
+        height: 1.5vh;
+    }
+
+    #newProjectLanding
+    {
+        width: 80vw;
+        margin-left: 0;
+        margin-top: 5vh;
+    }
+
+    
+    #newProjectLanding2
+    {
+        width: 80vw;
+        margin-left: 0;
+    }
+
+    .label 
+    {
+        font-size: 5vw !important;
+    }
+
+    .sabisabiLogoFooter
+    {
+        width: 100vw;
+        height: auto;
+    }
+
+    #natGeoLogo
+    {
+        position: relative;
+        top: 30vh;
+        width: 45vw;
+        height: auto;
+        right: 25vw;
+
+    }
+
+    #socials
+    {
+        top: 15vw;
+        text-align: center;
+        margin-top: 10vh;
+    }
+
+    .footerText {
+        text-align: center;
+    }
+
+    .whoWeAreText
+    {
+        font-size: 5vw;
+    }
+
+    .whoWeAreTextResponsive
+    {
+        font-size: 12px;
+    }
+    
+    #CurrentProjectsButtons {
+        text-align: center;
+        width: 30vw;
+        position: relative;
+        top: 4vh;
+        font-family: Century_Gothic;
+        font-size: 10px;
+    }
+
+    .currentProjectsDividerResp
+    {
+        margin-top: 10vh;
+    }
+
+    .sabiTitleMobile
+    {
+        font-size: 15px !important;
+    }
+
+    .padding-5
+    {
+        padding-right: 5vw;
+        padding-left: 5vw;
+    }
+
+    #donateButton
+    {
+        margin-left: 6vw;
+    }
+
+    .divider4 
+    {
+        width: 100vw;
+        height: 1.5vh;
+        margin-top: 5vh;
+    }
+
+    #logoContactMobile
+    {
+        position: relative;
+        right: 2vw;
+        width: 350px;
+        height: auto;
+    }
+}
