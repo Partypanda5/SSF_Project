@@ -462,11 +462,6 @@ body
         height: auto;
     }
 
-    #socials
-    {
-        top: 2vh;
-    }
-
     #responsiveNavBarLogo
     {
         position: relative;
@@ -790,6 +785,7 @@ body
         height: auto;
     }
 }
+
 
 /* Carousel Fading slide */
 .carousel-fade .carousel-inner { background: #000; }
