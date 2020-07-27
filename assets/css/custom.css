@@ -517,6 +517,11 @@ body
         font-size: 50px;
     }
 
+    .addPaddingBottomTablet
+    {
+        padding-bottom: 4vh;
+    }
+
 }
 
 
@@ -737,7 +742,13 @@ body
 
     .whoWeAreTextResponsive
     {
-        font-size: 12px;
+        font-size: 14px;
+    }
+
+    .scrollOnMobile
+    {
+        height: 600px;
+        overflow-y: scroll;
     }
     
     #CurrentProjectsButtons {
@@ -746,7 +757,7 @@ body
         position: relative;
         top: 4vh;
         font-family: Century_Gothic;
-        font-size: 10px;
+        font-size: 12px;
     }
 
     .currentProjectsDividerResp
@@ -756,7 +767,7 @@ body
 
     .sabiTitleMobile
     {
-        font-size: 15px !important;
+        font-size: 24px !important;
     }
 
     .padding-5
@@ -783,6 +794,11 @@ body
         right: 2vw;
         width: 350px;
         height: auto;
+    }
+
+    .donateText
+    {
+        font-size: 13px;
     }
 }
 
