@@ -35,8 +35,9 @@
     .gallery-text
     {
         font-size: 2vw;
-        line-height: 2vh;
+        line-height: 5vh;
         padding-bottom: 4vh;
+        width: 150px;
     }
 
     .divider2
@@ -813,11 +814,11 @@
     width: 150px;
 }
 
-.gallery-btn 
-{
-    top: 80%;
-    right: 1%;
-}
+    .gallery-btn 
+    {
+        top: 80%;
+        right: 1%;
+    }
 
    .noMarginBottomTablet
    {
@@ -834,7 +835,7 @@
    .divider
    {
        width: 100vw;
-       height: 1.5vh;
+       height: 3vh;
        margin-top: 80px;
    }
 
@@ -873,7 +874,7 @@
    #natGeoLogo 
    {
         position: relative;
-        top: 83vh;
+        top: 95vh;
         width: 22vw;
         height: auto;
         right: 35vw;
@@ -999,6 +1000,73 @@
 
     #readMoreLandingPage 
     {
-        margin-left: 18vw;
+        left: 0;
     }
+}
+
+@media (min-width: 530px) and (max-width: 767px) and (orientation:landscape) 
+{
+    .gallery-btn 
+    {
+        top: 90%;
+        right: 1%;
+    }
+
+    .gallery-text 
+    {
+        font-size: 3vw;
+        line-height: 3.5vw;
+        width: 150px;
+    }
+
+    #natGeoLogo 
+    {
+        position: relative;
+        top: 85vh;
+        width: 22vw;
+        height: auto;
+        right: 35vw;
+    }  
+    
+    .left-20 
+    {
+        left: 37vw !important;
+        margin-bottom: 5vh;
+    }
+
+    
+   #donateButton
+   {
+     margin-left: 0vw;
+   }
+}
+
+@media (min-width: 530px) and (max-width: 600px) and (orientation:landscape) 
+{
+    #natGeoLogo 
+    {
+        position: relative;
+        top: 95vh;
+        width: 22vw;
+        height: auto;
+        right: 35vw;
+    }  
+
+    .gallery-btn 
+    {
+        top: 85%;
+        right: 1%;
+    }
+}
+
+@media (min-width: 250px) and (max-width: 529px) and (orientation:landscape) 
+{
+    #natGeoLogo 
+    {
+        position: relative;
+        top: 80vh;
+        width: 22vw;
+        height: auto;
+        right: 35vw;
+    }  
 }
