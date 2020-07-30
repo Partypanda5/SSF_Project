@@ -40,6 +40,7 @@
 
 	<!-- CSS Customization -->
 	<link rel="stylesheet" href="assets/css/custom.css">
+	<link rel="stylesheet" href="assets/css/responsive.css">
 </head>
 
 <body class="header-fixed">
@@ -286,7 +287,7 @@
 				<p id="newProjectLanding2" class="text-center"><br/>Fortunately, a solution to this quandary exists – and the innovative technology has been pioneered and tested by a remarkable not-for-profit company Innovation: Africa. 
 				</p>
 
-				<a href="new_projects.html" id="readMoreLandingPage" class="btn-u btn-brd btn-brd-hover rounded btn-u-lg text-center left-20" type="button">Read More</a>
+				<a href="new_projects.html" id="readMoreLandingPage" class="btn-u btn-brd btn-brd-hover rounded btn-u-lg text-center left-20 newProjectsButton" type="button">Read More</a>
 			</div>
 		</div>
 	</div><!--/end row-->
@@ -320,7 +321,7 @@
 					<section class="col col-6">
 						<label class="label">Name*</label>
 						<label class="input">
-							<input class="roundForm" type="text" name="name" id="name">
+							<input class="roundForm" type="text" name="name" id="name" required>
 						</label>
 					</section>
 				</div>
@@ -329,7 +330,7 @@
 					<section class="col col-6">
 						<label class="label">E-mail*</label>
 						<label class="input">
-							<input class="roundForm" type="email" name="email2" id="email2">
+							<input class="roundForm" type="email" name="email2" id="email2" required pattern="^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$" title="Please enter a valid email address">
 						</label>
 					</section>
 				</div>

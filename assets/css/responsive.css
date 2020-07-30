@@ -1,0 +1,1004 @@
+@media (min-width: 768px) and (max-width: 1024px) 
+{
+    #readMoreLandingPage
+    {
+        left: 0;
+    }
+
+    .left-20
+    {
+        left: 19vw !important;
+    }
+
+    #newProjectsImage
+    {
+        position: relative;
+        top: 8vh;
+    }
+
+    .responsiveButtonNewProjectIndex
+    {
+        right: 2vw !important;
+    }
+
+    .noMarginBottomTablet
+    {
+        margin-bottom: 0;
+    }
+
+    .gallery-btn
+    {
+        top: 72%;
+        right: 0%;
+    }
+
+    .gallery-text
+    {
+        font-size: 2vw;
+        line-height: 2vh;
+        padding-bottom: 4vh;
+    }
+
+    .divider2
+    {
+        margin-top: -15px;
+    }
+
+    .divider3
+    {
+        margin-top: 10px;
+    }
+
+        
+    .landingPageContactButton
+    {
+        top: 0 !important;
+        bottom: 50px;
+        left: 1vw !important;
+    }
+
+    .sabisabiLogoFooter
+    {
+        width: 450px;
+        height: auto;
+    }
+
+    #responsiveNavBarLogo
+    {
+        position: relative;
+        top: 25vh;
+        left: 10vw;
+    }
+
+    .whoWeAreText
+    {
+        font-size: 2.5vw;
+    }
+
+    .whoWeAreTextResponsive
+    {
+        font-size: 2vw !important;
+    }
+
+    #sabiTitle
+    {
+        margin-bottom: 5vh;
+    }
+
+    .currentProjectsDividerResp
+    {
+        margin-top: 15px;
+    }
+
+    #donateButton
+    {
+        left: 16vw !important;
+        bottom: 1vh;
+    }
+
+    #donateImage
+    {
+        position: relative;
+        top: 12vh;
+        left: 3vw;
+    }
+
+    .label
+    {
+        font-size: 20px !important;
+    }
+
+    .carousel-caption
+    {
+        top: -15vh;
+    }
+
+    .Community_Conservation
+    {
+        font-size: 4vw;
+    }
+
+    .addPaddingBottomTablet
+    {
+        padding-bottom: 4vh;
+    }
+
+}
+
+
+@media (min-width: 700px) and (max-width: 768px) 
+{
+    #newProjectLanding
+    {
+        width: 70vw;
+        margin-left: 12vw;
+        margin-top: 13vh;
+    }
+
+    #newProjectLanding2
+    {
+        width: 70vw;
+        margin-left: 12vw;
+        margin-top: 3vh;
+    }
+    
+    .landingPageContactButton
+    {
+        top: 0 !important;
+        left: 1.5vw !important;
+    }
+
+    #readMoreLandingPage
+    {
+        left: 37vw !important;
+    }
+
+    #socials
+    {
+        top: 0;
+    }
+
+    #responsiveNavBarLogo
+    {
+        position: relative;
+        top: 25vh;
+        left: 0vw;
+    }
+
+    #donateButton
+    {
+        left: 37vw !important;
+        bottom: 2vh;
+    }
+    
+    #donateImage {
+        top: 0;
+        left: 0;
+    }
+
+    #LogoContact
+    {
+        position: relative;
+        right: 6vw;
+    }
+
+    .label
+    {
+        font-size: 2.5vw !important;
+    }
+
+}
+
+@media (min-width: 250px) and (max-width: 375px) 
+{
+    #indicators 
+    {
+        display: none;
+    }
+
+    .header-v6 .navbar-toggle .icon-bar
+    {
+        height: 3px;
+        width: 6vw;
+        background: #555;
+        margin-top: 4px;
+    }
+
+    .header-v6 .navbar-brand img 
+    {
+        max-width: 90%;
+        position: relative;
+        right: 10vw;
+        bottom: 15vh;
+    }
+
+    .navbar-brand {
+        height: 0px !important;
+    }
+
+    .mobile-logo
+    {
+        display: block;
+        position: relative;
+        height: 7vh;
+        width: auto;
+        top: 3vh;
+    }
+
+    .header-v6 .navbar-toggle
+    {
+        margin: 25px 0 30px 15px;
+    }
+
+    .contactButton 
+    {
+        margin-left: 8vw;
+        margin-bottom: 8vh;
+    }
+
+    #responsiveNavBarLogo
+    {
+        position: relative;
+        top: 20vh;
+    }
+
+    .overlay-content 
+    {
+        top: 15%; 
+        width: 100%; 
+        margin-top: 50px;
+    }
+
+      .carousel-caption
+      {
+          top: -23vh;
+      }
+
+      .content
+     {
+        padding-bottom: 0px;
+     }
+
+      h1
+      {
+          font-size: 50px;
+          line-height: 1.1;
+      }
+
+      .left-align-mobile
+      {
+          text-align: left;
+      }
+
+      .gallery-text
+      {
+          font-size: 5vw;
+          line-height: 10vw;
+          width: 200px;
+      }
+
+      .gallery-btn 
+      {
+        top: 75%;
+        right: 1%;
+      }
+
+      .noMarginBottomTablet
+      {
+        margin-bottom: 0;
+      }
+
+     .divider2 
+    {
+        width: 100vw;
+        height: 2vh;
+        margin-top: -20px;
+    }
+
+    .divider
+    {
+        width: 100vw;
+        height: 1.5vh;
+        margin-top: 80px;
+    }
+
+    .divider3 
+    {
+        width: 100vw;
+        margin-top: 20px;
+        height: 1.5vh;
+    }
+
+    #newProjectLanding
+    {
+        width: 80vw;
+        margin-left: 0;
+        margin-top: 5vh;
+    }
+
+    
+    #newProjectLanding2
+    {
+        width: 80vw;
+        margin-left: 0;
+    }
+
+    .label 
+    {
+        font-size: 5vw !important;
+    }
+
+    .sabisabiLogoFooter
+    {
+        width: 100vw;
+        height: auto;
+    }
+
+    #natGeoLogo
+    {
+        position: relative;
+        top: 31vh;
+        width: 45vw;
+        height: auto;
+        right: 25vw;
+    }
+
+    #socials
+    {
+        top: 15vw;
+        text-align: center;
+        margin-top: 10vh;
+    }
+
+    .footerText {
+        text-align: center;
+        padding-right: 10px;
+    }
+
+    .whoWeAreText
+    {
+        font-size: 5vw;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .whoWeAreTextResponsive
+    {
+        font-size: 14px;
+    }
+
+    .scrollOnMobile
+    {
+        height: 90vh;
+        overflow-y: scroll;
+    }
+    
+    #CurrentProjectsButtons 
+    {
+        text-align: center;
+        position: relative;
+        top: 4vh;
+        font-family: Century_Gothic;
+        font-size: 12px;
+    }
+
+    .currentProjectsDividerResp
+    {
+        margin-top: 10vh;
+    }
+
+    .sabiTitleMobile
+    {
+        font-size: 24px !important;
+    }
+
+    .padding-5
+    {
+        padding-right: 5vw;
+        padding-left: 5vw;
+    }
+
+    #donateButton
+    {
+        margin-left: 8vw;
+    }
+
+    #donateSection
+    {
+        padding-bottom: 40px
+    }
+
+    .divider4 
+    {
+        width: 100vw;
+        height: 1.5vh;
+        margin-top: 5vh;
+    }
+
+    #logoContactMobile
+    {
+        position: relative;
+        right: 2vw;
+        width: 350px;
+        height: auto;
+    }
+
+    .donateText
+    {
+        font-size: 5vw;
+    }
+
+    .left-20 
+    {
+        left: 17vw !important;
+        margin-bottom: 5vh;
+    }
+
+    .contactText 
+    {
+        font-size: 5vw;
+    }
+
+    p
+    {
+        font-size: 5vw;
+    }
+}
+
+@media (min-width: 200px) and (max-width: 280px) 
+{
+    #natGeoLogo
+    {
+        position: relative;
+        top: 25vh;
+        width: 45vw;
+        height: auto;
+        right: 25vw;
+    }
+
+    .left-20 
+    {
+        left: 10vw !important;
+        margin-bottom: 10vh;
+    }
+
+    .carousel-caption 
+    {
+        top: -30vh;
+    }
+
+    h1 
+    {
+        font-size: 40px;
+        line-height: 1.1;
+    }
+
+    #sabiEmail
+    {
+        font-size: 16px; 
+    }
+
+    #donateSection
+    {
+        padding-bottom: 40px;
+    }
+
+    #CurrentProjectsButtons 
+    {
+        width: 40vw;
+        top: 0vh;
+    }
+
+    #feelingGenerousText 
+    {
+        padding-left: 0%;
+        padding-right: 0%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+
+    #donateButton
+    {
+        margin-left: 8vw;
+    }
+
+    #logoContactMobile 
+    {
+        position: relative;
+        right: -2vw;
+        width: 250px;
+        height: auto;
+    }
+}
+
+@media (min-width: 376px) and (max-width: 479px) 
+{
+    
+    #responsiveNavBarLogo
+    {
+        position: relative;
+        top: 20vh;
+    }
+
+    .header-v6 .navbar-brand img.shrink-logo 
+    {
+        display: inherit;
+        width: 50vw;
+        height: auto;
+    }
+
+    .header-v6 .navbar-toggle .icon-bar 
+    {
+        height: 3px;
+        width: 8vw;
+        background: #555;
+        margin-top: 4px;
+    }
+
+    .header-v6 .navbar-toggle 
+    {
+        border: none;
+        margin: 30px 0 31px 15px;
+    }
+
+    .carousel-caption
+    {
+        top: -20vh;
+    }
+
+    #indicators
+    {
+        display: none;
+    }
+
+    .contactButton 
+    {
+        margin-left: 8vw;
+        margin-bottom: 8vh;
+    }
+
+    .overlay-content 
+    {
+        top: 15%; 
+        width: 100%; 
+        margin-top: 50px;
+    }
+
+      .content
+     {
+        padding-bottom: 0px;
+     }
+
+    h1
+    {
+        font-size: 50px;
+        line-height: 1.1;
+    }
+
+    .left-align-mobile
+    {
+        text-align: left;
+    }
+
+    .gallery-text
+    {
+        font-size: 5vw;
+        line-height: 10vw;
+        width: 200px;
+    }
+
+    .gallery-btn 
+    {
+        top: 75%;
+        right: 1%;
+    }
+
+    .noMarginBottomTablet
+    {
+      margin-bottom: 0;
+    }
+
+     .divider2 
+    {
+        width: 100vw;
+        height: 2vh;
+        margin-top: -20px;
+    }
+
+    .divider
+    {
+        width: 100vw;
+        height: 1.5vh;
+        margin-top: 80px;
+    }
+
+    .divider3 
+    {
+        width: 100vw;
+        margin-top: 20px;
+        height: 1.5vh;
+    }
+
+    #newProjectLanding
+    {
+        width: 80vw;
+        margin-left: 0;
+        margin-top: 5vh;
+    }
+
+    
+    #newProjectLanding2
+    {
+        width: 80vw;
+        margin-left: 0;
+    }
+
+    .label 
+    {
+        font-size: 5vw !important;
+    }
+
+    .sabisabiLogoFooter
+    {
+        width: 100vw;
+        height: auto;
+    }
+
+    #natGeoLogo
+    {
+        position: relative;
+        top: 30vh;
+        width: 45vw;
+        height: auto;
+        right: 25vw;
+    }
+
+    #socials
+    {
+        top: 15vw;
+        text-align: center;
+        margin-top: 10vh;
+    }
+
+    .footerText {
+        text-align: center;
+        padding-right: 10px;
+    }
+
+    .whoWeAreText
+    {
+        font-size: 5vw;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .whoWeAreTextResponsive
+    {
+        font-size: 14px;
+    }
+
+    .scrollOnMobile
+    {
+        height: 90vh;
+        overflow-y: scroll;
+    }
+    
+    #CurrentProjectsButtons 
+    {
+        text-align: center;
+        position: relative;
+        top: 4vh;
+        font-family: Century_Gothic;
+        font-size: 12px;
+    }
+
+    .currentProjectsDividerResp
+    {
+        margin-top: 10vh;
+    }
+
+    .sabiTitleMobile
+    {
+        font-size: 24px !important;
+    }
+
+    .padding-5
+    {
+        padding-right: 5vw;
+        padding-left: 5vw;
+    }
+
+    #donateButton
+    {
+        margin-left: 10vw;
+    }
+
+    #donateSection
+    {
+        padding-bottom: 40px
+    }
+
+    #feelingGenerousText 
+    {
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+
+    .divider4 
+    {
+        width: 100vw;
+        height: 1.5vh;
+        margin-top: 5vh;
+    }
+
+    #logoContactMobile
+    {
+        position: relative;
+        right: 2vw;
+        width: 350px;
+        height: auto;
+    }
+
+    .donateText
+    {
+        font-size: 5vw;
+    }
+
+    .left-20 
+    {
+        left: 20vw !important;
+        margin-bottom: 5vh;
+    }
+
+    .contactText 
+    {
+        font-size: 5vw;
+    }
+
+    p
+    {
+        font-size: 5vw;
+    }
+}
+
+@media (min-width: 480px) and (max-width: 825px) and (orientation:landscape) {
+    .carousel-caption 
+    {
+        top: -10vw;
+    }
+
+    .Community_Conservation 
+    {
+        font-size: 20px;
+    }
+
+    #indicators
+    {
+        display: none;
+    }
+
+    #responsiveNavBarLogo
+    {
+        position: relative;
+        top: 25vh;
+        left: 0vw;
+    }
+
+    .header-v6 .navbar-toggle .icon-bar 
+    {
+        height: 3px;
+        width: 5vw;
+        background: #555;
+        margin-top: 4px;
+    }
+    .content
+    {
+       padding-bottom: 0px;
+    }
+
+   h1
+   {
+       font-size: 50px;
+       line-height: 1.1;
+   }
+
+   .left-align-mobile
+   {
+       text-align: left;
+   }
+
+   .gallery-text {
+    font-size: 2vw;
+    line-height: 3vw;
+    width: 150px;
+}
+
+.gallery-btn 
+{
+    top: 80%;
+    right: 1%;
+}
+
+   .noMarginBottomTablet
+   {
+     margin-bottom: 0;
+   }
+
+    .divider2 
+   {
+       width: 100vw;
+       height: 2vh;
+       margin-top: -20px;
+   }
+
+   .divider
+   {
+       width: 100vw;
+       height: 1.5vh;
+       margin-top: 80px;
+   }
+
+   .divider3 
+   {
+       width: 100vw;
+       margin-top: 20px;
+       height: 1.5vh;
+   }
+
+   #newProjectLanding
+   {
+    width: 80vw;
+    margin-left: 8vw;
+    margin-top: 10vh;
+   }
+
+   
+   #newProjectLanding2
+   {
+       width: 80vw;
+       margin-left: 8vw;
+   }
+
+   .label 
+   {
+       font-size: 3vw !important;
+   }
+
+   .sabisabiLogoFooter
+   {
+       width: 100vw;
+       height: auto;
+   }
+
+   #natGeoLogo 
+   {
+        position: relative;
+        top: 83vh;
+        width: 22vw;
+        height: auto;
+        right: 35vw;
+    }
+
+   #socials
+   {
+       top: 15vw;
+       text-align: center;
+       margin-top: 10vh;
+   }
+
+   .footerText {
+       text-align: center;
+       padding-right: 10px;
+   }
+
+   .whoWeAreText
+   {
+       font-size: 3vw;
+       padding-left: 5%;
+       padding-right: 5%;
+   }
+
+   .whoWeAreTextResponsive
+   {
+       font-size: 14px;
+   }
+
+   .scrollOnMobile
+   {
+       height: 90vh;
+       overflow-y: scroll;
+   }
+   
+   #CurrentProjectsButtons 
+   {
+       text-align: center;
+       position: relative;
+       top: 4vh;
+       font-family: Century_Gothic;
+       font-size: 12px;
+   }
+
+   .currentProjectsDividerResp
+   {
+       margin-top: 10vh;
+   }
+
+   .sabiTitleMobile
+   {
+       font-size: 24px !important;
+   }
+
+   .padding-5
+   {
+       padding-right: 5vw;
+       padding-left: 5vw;
+   }
+
+   #donateButton
+   {
+     margin-left: 22vw;
+   }
+
+   #donateSection
+   {
+       padding-bottom: 40px
+   }
+
+   #feelingGenerousText 
+   {
+       padding-left: 0%;
+       padding-right: 0%;
+   }
+
+   .divider4 
+   {
+       width: 100vw;
+       height: 1.5vh;
+       margin-top: 5vh;
+   }
+
+   #logoContactMobile
+   {
+       position: relative;
+       left: 3vw;
+       width: 350px;
+       height: auto;
+   }
+
+   .donateText
+   {
+       font-size: 3vw;
+   }
+
+   .left-20 
+   {
+       left: 20vw !important;
+       margin-bottom: 5vh;
+   }
+
+   .contactText 
+   {
+       font-size: 3vw;
+   }
+
+   p
+   {
+       font-size: 3vw;
+   }
+
+   .contactButton 
+   {
+    margin-left: 5vw;
+    margin-bottom: 8vh;
+    }
+
+    #mobileMarginTop
+    {
+        margin-top: 20vh;
+    }
+
+    #readMoreLandingPage 
+    {
+        margin-left: 18vw;
+    }
+}
