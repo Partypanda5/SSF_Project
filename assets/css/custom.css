@@ -5,7 +5,8 @@ body
 
 .wrapper
 {
-    overflow-x: hidden;
+    overflow-x: hidden; 
+    overflow-y: hidden;
 }
 
 @font-face 
@@ -268,6 +269,7 @@ body
     position: relative;
     top: 14vh;
     text-align: right;
+    padding-bottom: 40px;
 }
 
 .footerText
@@ -318,7 +320,8 @@ body
 {
     padding: 0 !important;
 }
-.row
+
+.Hiderow
 {
     overflow-y: hidden;
 }

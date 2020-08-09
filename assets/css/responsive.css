@@ -1,5 +1,20 @@
 @media (min-width: 768px) and (max-width: 1024px) 
 {
+
+    .mobile-logo
+    {
+        display: block;
+        position: relative;
+        height: 10vh;
+        width: auto;
+        top: 3vh;
+    }
+
+    .header-v6 .navbar-toggle
+    {
+        top: 2vh;
+    }
+    
     #readMoreLandingPage
     {
         left: 0;
@@ -34,10 +49,10 @@
 
     .gallery-text
     {
-        font-size: 2vw;
-        line-height: 5vh;
-        padding-bottom: 4vh;
-        width: 150px;
+        font-size: 18px;
+        line-height: 20px;
+        padding-bottom: 1vh;
+        width: 145px;
     }
 
     .divider2
@@ -126,9 +141,35 @@
 
 }
 
+@media (min-width: 768px) and (max-width: 1024px) and (orientation:landscape) 
+{
+    .mobile-logo
+    {
+        display: block;
+        position: relative;
+        height: 20vh;
+        width: auto;
+        top: 10vh;
+    }
+
+    .header-v6 .navbar-toggle
+    {
+        top: 10vh;
+    }
+}
+
 
 @media (min-width: 700px) and (max-width: 768px) 
 {
+    .mobile-logo
+    {
+        display: block;
+        position: relative;
+        height: 10vh;
+        width: auto;
+        top: 3vh;
+    }
+
     #newProjectLanding
     {
         width: 70vw;
@@ -190,6 +231,43 @@
 
 }
 
+
+@media (min-width: 700px) and (max-width: 768px) and (orientation:landscape) 
+{
+    .mobile-logo
+    {
+        display: block;
+        position: relative;
+        height: 20vh;
+        width: auto;
+        top: 15vh;
+    }
+
+    .header-v6 .navbar-toggle
+    {
+        top: 8vh;
+        right: 4vw;
+    }
+}
+
+@media (min-width: 376px) and (max-width: 699px) 
+{
+    .mobile-logo
+    {
+        display: block;
+        position: relative;
+        height: 10vh;
+        width: auto;
+        top: 10vh;
+    }
+
+    .header-v6 .navbar-toggle
+    {
+        top: 6vh;
+        right: 4vw;
+    }
+}
+
 @media (min-width: 250px) and (max-width: 375px) 
 {
     #indicators 
@@ -228,7 +306,7 @@
 
     .header-v6 .navbar-toggle
     {
-        margin: 25px 0 30px 15px;
+        margin: 20px 0 30px 15px;
     }
 
     .contactButton 
@@ -338,8 +416,8 @@
     #natGeoLogo
     {
         position: relative;
-        top: 31vh;
-        width: 45vw;
+        top: 32vh;
+        width: 50vw;
         height: auto;
         right: 25vw;
     }
@@ -349,6 +427,7 @@
         top: 15vw;
         text-align: center;
         margin-top: 10vh;
+        margin-bottom: 20px;
     }
 
     .footerText {
@@ -443,6 +522,11 @@
     p
     {
         font-size: 5vw;
+    }
+
+    .Community_Conservation
+    {
+        font-size: 25px;
     }
 }
 
@@ -659,6 +743,7 @@
         top: 15vw;
         text-align: center;
         margin-top: 10vh;
+        padding-bottom: 40px;
     }
 
     .footerText {
@@ -759,6 +844,11 @@
     p
     {
         font-size: 5vw;
+    }
+
+    .Community_Conservation 
+    {
+        font-size: 25px;
     }
 }
 
@@ -875,7 +965,7 @@
    {
         position: relative;
         top: 95vh;
-        width: 22vw;
+        width: 30vw;
         height: auto;
         right: 35vw;
     }
@@ -885,6 +975,7 @@
        top: 15vw;
        text-align: center;
        margin-top: 10vh;
+       padding-bottom: 30vh;
    }
 
    .footerText {
@@ -1004,8 +1095,41 @@
     }
 }
 
+
+@media (min-height: 250px) and (max-height: 529px) and (orientation:landscape) 
+{
+    #natGeoLogo 
+    {
+        position: relative;
+        top: 120vh;
+        width: 30vw;
+        height: auto;
+        right: 35vw;
+    }
+
+    
+    #socials {
+        padding-bottom: 40vh;
+    }
+}
+
 @media (min-width: 530px) and (max-width: 767px) and (orientation:landscape) 
 {
+    .mobile-logo
+    {
+        display: block;
+        position: relative;
+        height: 20vh;
+        width: auto;
+        top: 10vh;
+    }
+
+    .header-v6 .navbar-toggle 
+    {
+        border: none;
+        margin: 20px 0 31px 15px;
+    }
+
     .gallery-btn 
     {
         top: 90%;
@@ -1046,8 +1170,8 @@
     #natGeoLogo 
     {
         position: relative;
-        top: 95vh;
-        width: 22vw;
+        top: 85vh;
+        width: 30vw;
         height: auto;
         right: 35vw;
     }  
@@ -1056,6 +1180,13 @@
     {
         top: 85%;
         right: 1%;
+    }
+
+    #socials {
+        top: 15vw;
+        text-align: center;
+        margin-top: 10vh;
+        padding-bottom: 30vh;
     }
 }
 
@@ -1069,4 +1200,46 @@
         height: auto;
         right: 35vw;
     }  
+}
+
+@media (min-width: 376px) and (max-width: 429px) 
+{
+    .mobile-logo
+    {
+        display: block;
+        position: relative;
+        height: 10vh;
+        width: auto;
+        top: 2vh;
+    }
+
+    .header-v6 .navbar-toggle
+    {
+        top: 0vh;
+        right: 4vw;
+    }
+
+    .header-v6 .menu-container 
+    {
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+@media (min-width: 450px) and (max-width: 599px)
+{
+    #natGeoLogo 
+    {
+        position: relative;
+        top: 40vh;
+        width: 40vw;
+        height: auto;
+        right: 25vw;
+    }  
+
+    #socials {
+        padding-bottom: 20vh;
+    }
 }

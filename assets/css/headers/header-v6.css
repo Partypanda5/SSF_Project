@@ -56,7 +56,7 @@
 @media (min-width: 768px) and (max-width: 1024px) {
   	.header-v6 .menu-container {
 	    width: 750px;
-  	}
+	  }
 }
 
 @media (max-width: 1024px) {
@@ -377,7 +377,7 @@
     }
     
     .header-v6 .navbar-toggle {
-        display: block;
+		display: block;
     }
     
     .header-v6 .navbar-collapse {
@@ -948,11 +948,8 @@
 
 	/*Navbar Brand*/
 	.header-fixed .header-v6.header-fixed-shrink .navbar-brand img.default-logo {
-		display: none;
-	}
-
-	.header-fixed .header-v6.header-fixed-shrink .navbar-brand img.shrink-logo {
-		display: inherit;
+		height: 150px;
+		width: auto;
 	}
 
 	/*Menu Inner Right*/
