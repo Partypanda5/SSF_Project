@@ -1,6 +1,15 @@
+@media (min-width: 1025px) and (max-width: 1600px) 
+{
+    
+    #donateImage
+    {
+        position: relative;
+        top: 5vh;
+    }
+}
+
 @media (min-width: 768px) and (max-width: 1024px) 
 {
-
     .mobile-logo
     {
         display: block;
@@ -28,7 +37,7 @@
     #newProjectsImage
     {
         position: relative;
-        top: 8vh;
+        top: -2vh;
     }
 
     .responsiveButtonNewProjectIndex
@@ -77,13 +86,33 @@
     {
         width: 450px;
         height: auto;
+        position: relative;
+        bottom: 5vh;
+    }
+
+    #natGeoLogo 
+    {
+        float: right;
+        position: relative;
+        width: 200px;
+        height: auto;
+        top: 5vh;
+    }
+
+    #socials {
+        position: relative;
+        top: -8vh;
+        text-align: right;
+        width: 250px;
+        float: right;
+        padding-bottom: 5px;
     }
 
     #responsiveNavBarLogo
     {
         position: relative;
         top: 25vh;
-        left: 10vw;
+        left: 0vw;
     }
 
     .whoWeAreText
@@ -108,14 +137,14 @@
 
     #donateButton
     {
-        left: 16vw !important;
+        left: 38vw !important;
         bottom: 1vh;
     }
 
     #donateImage
     {
         position: relative;
-        top: 12vh;
+        top: 6vh;
         left: 3vw;
     }
 
@@ -139,6 +168,96 @@
         padding-bottom: 4vh;
     }
 
+    #newProjectLanding 
+    {
+        width: 90vw;
+        margin-left: 0vw;
+    }
+    
+    #newProjectLanding2 
+    {
+        width: 90vw;
+        margin-left: 0vw;
+    }
+
+    .left-20 
+    {
+        left: 35vw !important;
+    }
+
+    #mobileMarginTop
+    {
+        margin-top: 120px;
+    }
+
+    #logoContactMobile
+    {
+        position: relative;
+        right: 7vw;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1024px) 
+{
+    #socials 
+    {
+        position: relative;
+        top: 8vh;
+        text-align: right;
+        padding-bottom: 100px;
+    }
+
+    #natGeoLogo 
+    {
+        float: right;
+        position: relative;
+        width: 200px;
+        height: auto;
+        top: 5vh;
+    }
+
+    #newProjectLanding 
+    {
+        width: 45vw;
+        margin-left: 0vw;
+    }
+    
+    #newProjectLanding2 
+    {
+        width: 45vw;
+        margin-left: 0vw;
+    }
+
+    .left-20 {
+        left: 15vw !important;
+    }
+
+    #newProjectsImage {
+        position: relative;
+        top: 5vh;
+    }
+
+    #responsiveNavBarLogo {
+        position: relative;
+        top: 25vh;
+        left: 9vw;
+    }
+
+    .Community_Conservation 
+    {
+        top: 4vh;
+    }
+
+    #donateButton 
+    {
+        left: 16vw !important;
+        bottom: 1vh;
+    }
+
+    #mobileMarginTop {
+    margin-top: 0px;
+}
+
 }
 
 @media (min-width: 768px) and (max-width: 1024px) and (orientation:landscape) 
@@ -156,10 +275,57 @@
     {
         top: 10vh;
     }
+
+    #newProjectLanding 
+    {
+        width: 45vw;
+        margin-left: 0vw;
+    }
+    
+    #newProjectLanding2 
+    {
+        width: 45vw;
+        margin-left: 0vw;
+    }
+
+    .left-20 {
+        left: 15vw !important;
+    }
+
+    #logoContactMobile {
+        position: relative;
+        right: 0vw;
+    }
+
+    .addPaddingBottomTablet {
+        padding-bottom: 7.5vh;
+    }
+
+    #donateButton {
+        left: 16vw !important;
+        bottom: 1vh;
+    }
+
+    #mobileMarginTop {
+        margin-top: 0px;
+    }
+
+    #donateImage {
+        position: relative;
+        top: 15vh;
+        left: 3vw;
+    }
+
+    .scrollOnMobile
+    {
+        height: 90vh;
+        overflow-y: scroll;
+    }
+    
 }
 
 
-@media (min-width: 700px) and (max-width: 768px) 
+@media (min-width: 700px) and (max-width: 767px) 
 {
     .mobile-logo
     {
@@ -393,6 +559,7 @@
         width: 80vw;
         margin-left: 0;
         margin-top: 5vh;
+        text-align: left;
     }
 
     
@@ -400,6 +567,7 @@
     {
         width: 80vw;
         margin-left: 0;
+        text-align: left;
     }
 
     .label 
@@ -709,6 +877,7 @@
         width: 80vw;
         margin-left: 0;
         margin-top: 5vh;
+        text-align: left;
     }
 
     
@@ -716,6 +885,7 @@
     {
         width: 80vw;
         margin-left: 0;
+        text-align: left;
     }
 
     .label 
@@ -1146,7 +1316,7 @@
     #natGeoLogo 
     {
         position: relative;
-        top: 85vh;
+        top: 90vh;
         width: 30vw;
         height: auto;
         right: 30vw;

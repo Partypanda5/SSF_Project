@@ -370,7 +370,7 @@
 ----------------------------------------------------*/
 
 /*Responsive Navbar*/
-@media (max-width: 1024px) {
+@media (max-width: 1199px) {
 	/*Responsive code for max-width: 1024px*/
     .header-v6 .navbar-header {
         float: none;

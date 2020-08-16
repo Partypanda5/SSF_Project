@@ -86,6 +86,36 @@ body
     background-color: rgba(255,255,255,0.65);
 }
 
+.notification
+{
+    position: relative;
+    top: 0vh;
+    top: -43.5vw;
+    width: 100vw;
+    height: 6vh;
+    background-color: rgba(255,255,255,0.65);
+    z-index: 999;
+}
+
+.notificationText
+{
+    font-family: Century_Gothic_Bold;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 200;
+    color: #28422C;
+    text-shadow: none;
+    position: relative;
+    top: 0.7vh;
+}
+
+.notificationButton
+{
+    position: absolute !important;
+    top: 10%;
+    right: 5%;
+}
+
 #readMoreLandingPage
 {
     text-align: center;
@@ -269,7 +299,7 @@ body
     position: relative;
     top: 14vh;
     text-align: right;
-    padding-bottom: 40px;
+    padding-bottom: 50px;
 }
 
 .footerText
