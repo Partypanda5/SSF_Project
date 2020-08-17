@@ -279,7 +279,7 @@
 
     .Community_Conservation
     {
-        font-size: 4vw;
+        font-size: 3vw;
     }
 
     .addPaddingBottomTablet
@@ -313,6 +313,11 @@
     {
         position: relative;
         right: 7vw;
+    }
+
+    .notification 
+    {
+        top: 30px;
     }
 }
 
