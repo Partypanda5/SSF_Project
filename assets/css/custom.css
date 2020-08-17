@@ -88,9 +88,8 @@ body
 
 .notification
 {
-    position: relative;
-    top: 0vh;
-    top: -43.5vw;
+    position: absolute;
+    top: 150px;
     width: 100vw;
     height: 6vh;
     background-color: rgba(255,255,255,0.65);
@@ -107,12 +106,13 @@ body
     text-shadow: none;
     position: relative;
     top: 0.7vh;
+    margin-top: 5px;
 }
 
 .notificationButton
 {
     position: absolute !important;
-    top: 10%;
+    top: 12%;
     right: 5%;
 }
 

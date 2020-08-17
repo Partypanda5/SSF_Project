@@ -1,10 +1,129 @@
 @media (min-width: 1025px) and (max-width: 1600px) 
 {
-    
     #donateImage
     {
         position: relative;
         top: 5vh;
+    }
+
+    .notification
+    {
+        position: absolute;
+        top: 150px;
+        width: 100vw;
+        height: 50px;
+        background-color: rgba(255,255,255,0.65);
+        z-index: 999;
+    }
+
+}
+
+@media (min-width: 900px) and (max-width: 1332px) 
+{
+    .notificationButton
+    {
+        position: absolute !important;
+        top: 10%;
+        right: 1%;
+    }
+
+    .notification
+    {
+        position: absolute;
+        top: 150px;
+        width: 100vw;
+        height: 50px;
+        background-color: rgba(255,255,255,0.65);
+        z-index: 999;
+    }
+}
+
+@media (min-width: 750px) and (max-width: 899px)
+{
+    .notificationButton
+    {
+        position: absolute !important;
+        top: 10%;
+        right: 3%;
+    }
+
+    .notification
+    {
+        position: absolute;
+        top: 0vh;
+        top: 30px;
+        width: 100vw;
+        height: 50px;
+        background-color: rgba(255,255,255,0.65);
+        z-index: 999;
+    }
+
+    .notificationText
+    {
+        font-size: 15px;
+        text-align: left;
+        margin-left: 30px;
+        margin-top: 5px;
+    }
+}
+
+
+@media (min-width:550px) and (max-width: 749px)
+{
+    .notificationButton
+    {
+        position: absolute !important;
+        top: 45%;
+        right: 40%;
+    }
+
+    .notification
+    {
+        position: absolute;
+        top: 0vh;
+        top: 20px;
+        width: 100vw;
+        height: 80px;
+        background-color: rgba(255,255,255,0.65);
+        z-index: 999;
+    }
+
+    .notificationText
+    {
+        font-size: 15px;
+        text-align: left;
+        margin-left: 20px;
+        margin-top: 5px;
+    }
+}
+
+
+@media (min-width:250px) and (max-width: 549px)
+{
+    .notificationButton
+    {
+        position: absolute !important;
+        top: 58%;
+        right: 35%;
+    }
+
+    .notification
+    {
+        position: absolute;
+        top: 0vh;
+        top: 20px;
+        width: 100vw;
+        height: 115px;
+        background-color: rgba(255,255,255,0.65);
+        z-index: 999;
+    }
+
+    .notificationText
+    {
+        font-size: 15px;
+        text-align: left;
+        margin-left: 20px;
+        margin-top: 5px;
     }
 }
 
