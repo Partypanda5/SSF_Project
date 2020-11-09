@@ -44,7 +44,7 @@ body
 }
 
 .carousel-inner {
-    height: 100vh;
+    height: 105vh;
 }
 
 /* Background images are set within the HTML using inline CSS, not here */
