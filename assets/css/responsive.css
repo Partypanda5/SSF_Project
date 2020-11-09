@@ -65,6 +65,16 @@
         margin-left: 30px;
         margin-top: 5px;
     }
+
+
+    .emailText
+    {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+        font-size: 2vw;
+    }
 }
 
 
@@ -94,6 +104,15 @@
         text-align: left;
         margin-left: 20px;
         margin-top: 5px;
+    }
+
+    
+    .emailText
+    {
+        text-align: center;
+        margin-left: 0;
+        margin-right: 0;
+        width: 0%;
     }
 }
 
@@ -565,6 +584,14 @@
         display: none;
     }
 
+    .emailText
+    {
+        text-align: center;
+        margin-left: 0;
+        margin-right: 0;
+        width: 0%;
+    }
+
     .header-v6 .navbar-toggle .icon-bar
     {
         height: 3px;
@@ -716,10 +743,11 @@
 
     #socials
     {
-        top: 15vw;
+        top: 17vw;
         text-align: center;
         margin-top: 10vh;
         margin-bottom: 20px;
+        padding-bottom: 80px;
     }
 
     .footerText {
@@ -833,6 +861,15 @@
         right: 25vw;
     }
 
+    
+    .emailText
+    {
+        text-align: center;
+        margin-left: 0;
+        margin-right: 0;
+        width: 0%;
+    }
+
     .left-20 
     {
         left: 10vw !important;
@@ -886,6 +923,7 @@
         width: 250px;
         height: auto;
     }
+
 }
 
 @media (min-width: 376px) and (max-width: 479px) 
@@ -895,6 +933,15 @@
     {
         position: relative;
         top: 20vh;
+    }
+
+    
+    .emailText
+    {
+        text-align: center;
+        margin-left: 0;
+        margin-right: 0;
+        width: 0%;
     }
 
     .header-v6 .navbar-brand img.shrink-logo 
@@ -1037,7 +1084,7 @@
         top: 15vw;
         text-align: center;
         margin-top: 10vh;
-        padding-bottom: 40px;
+        padding-bottom: 55px;
     }
 
     .footerText {
@@ -1152,6 +1199,15 @@
         top: -10vw;
     }
 
+    
+    .emailText
+    {
+        text-align: center;
+        margin-left: 0;
+        margin-right: 0;
+        width: 0%;
+    }
+
     .Community_Conservation 
     {
         font-size: 20px;
@@ -1200,7 +1256,7 @@
 
     .gallery-btn 
     {
-        top: 80%;
+        top: 75%;
         right: 1%;
     }
 
@@ -1257,19 +1313,21 @@
 
    #natGeoLogo 
    {
-        position: relative;
-        top: 95vh;
-        width: 30vw;
-        height: auto;
-        right: 35vw;
+        position: relative !important;
+        top: 95vh !important;
+        width: 30vw !important;
+        height: auto !important;
+        right: 35vw !important;
     }
 
    #socials
    {
-       top: 15vw;
+       top: 20vw;
        text-align: center;
        margin-top: 10vh;
        padding-bottom: 30vh;
+       width: 90vw;
+       float: none;
    }
 
    .footerText {
@@ -1358,7 +1416,7 @@
 
    .left-20 
    {
-       left: 20vw !important;
+       left: 38vw !important;
        margin-bottom: 5vh;
    }
 
@@ -1402,6 +1460,15 @@
     }
 
     
+    .emailText
+    {
+        text-align: center;
+        margin-left: 0;
+        margin-right: 0;
+        width: 0%;
+    }
+
+    
     #socials {
         padding-bottom: 40vh;
     }
@@ -1416,6 +1483,15 @@
         height: 20vh;
         width: auto;
         top: 10vh;
+    }
+
+    
+    .emailText
+    {
+        text-align: center;
+        margin-left: 0;
+        margin-right: 0;
+        width: 0%;
     }
 
     .header-v6 .navbar-toggle 
@@ -1477,10 +1553,10 @@
     }
 
     #socials {
-        top: 15vw;
+        top: 20vw;
         text-align: center;
         margin-top: 10vh;
-        padding-bottom: 30vh;
+        padding-bottom: 150px;
     }
 }
 
@@ -1520,6 +1596,15 @@
         padding-left: 0;
         padding-right: 0;
     }
+
+    
+    .emailText
+    {
+        text-align: center;
+        margin-left: 0;
+        margin-right: 0;
+        width: 0%;
+    }
 }
 
 @media (min-width: 450px) and (max-width: 599px)
@@ -1535,7 +1620,16 @@
 
     #socials 
     {
-        padding-bottom: 30vh;
+        padding-bottom: 35vh;
+    }
+
+    
+    .emailText
+    {
+        text-align: center;
+        margin-left: 0;
+        margin-right: 0;
+        width: 0%;
     }
 }
 
@@ -1553,5 +1647,14 @@
     #socials 
     {
         padding-bottom: 20vh;
+    }
+
+    
+    .emailText
+    {
+        text-align: center;
+        margin-left: 0;
+        margin-right: 0;
+        width: 0%;
     }
 }

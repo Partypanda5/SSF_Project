@@ -299,7 +299,7 @@ body
     position: relative;
     top: 14vh;
     text-align: right;
-    padding-bottom: 50px;
+    padding-bottom: 130px;
 }
 
 .footerText
@@ -344,6 +344,16 @@ body
     line-height: 6vh;
     margin-left: 1vw;
     margin-bottom: 1vw;
+}
+
+.emailText
+{
+    font-size: 1.5vw;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
 }
 
 .no-padding

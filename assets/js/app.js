@@ -13,10 +13,10 @@ var App = function () {
 	// Fixed Header
 	function handleHeader() {
 		jQuery(window).scroll(function() {
-		  if (jQuery(window).scrollTop() > 100) {
-			jQuery('.header-fixed .header-sticky').addClass('header-fixed-shrink');
+		  if (jQuery(window).scrollTop() > 200) {
+			jQuery('.header-fixed .header-sticky').addClass('whiteNavBar');
 		  } else {
-			jQuery('.header-fixed .header-sticky').removeClass('header-fixed-shrink');
+			jQuery('.header-fixed .header-sticky').removeClass('whiteNavBar');
 		  }
 		});
 	}
