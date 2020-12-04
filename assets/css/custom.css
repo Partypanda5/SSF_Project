@@ -383,6 +383,18 @@ body
     overflow-y: visible !important;
 }
 
+#sabiEmail
+{
+    font-weight: 900;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60vw;
+    font-family: Century_Gothic;
+    font-size: 17px;
+}
+
 /* The Overlay (background) */
 .overlay {
     /* Height & width depends on how you want to reveal the overlay (see JS below) */   
