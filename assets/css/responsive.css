@@ -36,6 +36,7 @@
         background-color: rgba(255,255,255,0.65);
         z-index: 999;
     }
+    
 }
 
 @media (min-width: 750px) and (max-width: 899px)
@@ -74,6 +75,11 @@
         margin-right: auto;
         width: 60%;
         font-size: 2vw;
+    }
+
+    #footerPadding
+    {
+        padding: 10px;
     }
 }
 
@@ -114,6 +120,11 @@
         margin-right: 0;
         width: 0%;
     }
+
+    #footerPadding
+    {
+        padding: 10px;
+    }
 }
 
 
@@ -143,6 +154,11 @@
         text-align: left;
         margin-left: 20px;
         margin-top: 5px;
+    }
+
+    #footerPadding
+    {
+        padding: 10px;
     }
 }
 
@@ -225,7 +241,7 @@
         width: 450px;
         height: auto;
         position: relative;
-        bottom: 5vh;
+        bottom: -5vh;
     }
 
     #natGeoLogo 
@@ -244,6 +260,16 @@
         width: 250px;
         float: right;
         padding-bottom: 5px;
+    }
+
+    #socialContainer 
+    {
+        position: relative;
+        right: 7vw;
+    }
+    .footerText 
+    {
+        text-align: center;
     }
 
     #responsiveNavBarLogo
@@ -338,6 +364,19 @@
     {
         top: 30px;
     }
+    
+    .sabisabiLogoFooter 
+    {
+        width: 450px;
+        height: auto;
+        position: relative;
+        bottom: -2vh;
+    }
+
+    #footerPadding
+    {
+        padding: 10px;
+    }
 }
 
 @media (min-width: 992px) and (max-width: 1024px) 
@@ -345,7 +384,7 @@
     #socials 
     {
         position: relative;
-        top: 8vh;
+        top: 5vh;
         text-align: right;
         padding-bottom: 100px;
     }
@@ -399,6 +438,11 @@
 
     #mobileMarginTop {
     margin-top: 0px;
+}
+
+#footerPadding
+{
+    padding: 10px;
 }
 
 }
@@ -463,6 +507,22 @@
     {
         height: 90vh;
         overflow-y: scroll;
+    }
+ 
+    .footerText 
+    {
+        text-align: center;
+    }
+
+    #socialContainer 
+    {
+        position: relative;
+        right: 5vw;
+    }
+
+    #footerPadding
+    {
+        padding: 10px;
     }
     
 }
@@ -538,6 +598,11 @@
         font-size: 2.5vw !important;
     }
 
+    #footerPadding
+    {
+        padding: 10px;
+    }
+
 }
 
 
@@ -557,6 +622,11 @@
         top: 8vh;
         right: 4vw;
     }
+
+    #footerPadding
+    {
+        padding: 10px;
+    }
 }
 
 @media (min-width: 376px) and (max-width: 699px) 
@@ -575,6 +645,11 @@
         top: 6vh;
         right: 4vw;
     }
+
+    #footerPadding
+    {
+        padding: 10px;
+    }
 }
 
 @media (min-width: 250px) and (max-width: 375px) 
@@ -583,6 +658,21 @@
     {
         display: none;
     }
+
+    .sabisabiLogoFooter
+    {
+        width: 100vw;
+        height: auto;
+        position: relative;
+        top: 8vh;
+    }
+
+    #socialContainer 
+    {
+        position: relative;
+        right: 0vw;
+    }
+
 
     .emailText
     {
@@ -848,6 +938,11 @@
     {
         font-size: 25px;
     }
+
+    #footerPadding
+    {
+        padding: 10px;
+    }
 }
 
 @media (min-width: 200px) and (max-width: 280px) 
@@ -861,6 +956,10 @@
         right: 25vw;
     }
 
+    #footerPadding
+    {
+        padding: 10px;
+    }
     
     .emailText
     {
@@ -933,6 +1032,11 @@
     {
         position: relative;
         top: 20vh;
+    }
+
+    #footerPadding
+    {
+        padding: 10px;
     }
 
     
@@ -1068,6 +1172,14 @@
     {
         width: 100vw;
         height: auto;
+        position: relative;
+        top: 8vh;
+    }
+
+    #socialContainer 
+    {
+        position: relative;
+        right: 0vw;
     }
 
     #natGeoLogo
@@ -1199,6 +1311,10 @@
         top: -10vw;
     }
 
+    #footerPadding
+    {
+        padding: 10px;
+    }
     
     .emailText
     {
@@ -1322,12 +1438,17 @@
 
    #socials
    {
-       top: 20vw;
-       text-align: center;
-       margin-top: 10vh;
-       padding-bottom: 30vh;
-       width: 90vw;
-       float: none;
+    top: 15vw;
+    text-align: center;
+    margin-top: 0;
+    width: 100vw;
+    float: none;
+   }
+
+   #socialContainer 
+   {
+    position: relative;
+    right: 0;
    }
 
    .footerText {
@@ -1459,6 +1580,11 @@
         right: 35vw;
     }
 
+    #footerPadding
+    {
+        padding: 10px;
+    }
+
     
     .emailText
     {
@@ -1467,11 +1593,7 @@
         margin-right: 0;
         width: 0%;
     }
-
     
-    #socials {
-        padding-bottom: 40vh;
-    }
 }
 
 @media (min-width: 530px) and (max-width: 767px) and (orientation:landscape) 
@@ -1483,6 +1605,11 @@
         height: 20vh;
         width: auto;
         top: 10vh;
+    }
+
+    #footerPadding
+    {
+        padding: 10px;
     }
 
     
@@ -1546,6 +1673,11 @@
         right: 35vw;
     }  
 
+    #footerPadding
+    {
+        padding: 10px;
+    }
+
     .gallery-btn 
     {
         top: 85%;
@@ -1553,10 +1685,9 @@
     }
 
     #socials {
-        top: 20vw;
-        text-align: center;
-        margin-top: 10vh;
-        padding-bottom: 150px;
+    top: 5vw;
+    text-align: center;
+    margin-top: 10vh;
     }
 }
 
@@ -1570,6 +1701,11 @@
         height: auto;
         right: 35vw;
     }  
+
+    #footerPadding
+    {
+        padding: 10px;
+    }
 }
 
 @media (min-width: 376px) and (max-width: 429px) 
@@ -1581,6 +1717,11 @@
         height: 10vh;
         width: auto;
         top: 2vh;
+    }
+
+    #footerPadding
+    {
+        padding: 10px;
     }
 
     .header-v6 .navbar-toggle
@@ -1618,6 +1759,11 @@
         right: 25vw;
     }  
 
+    #footerPadding
+    {
+        padding: 10px;
+    }
+
     #socials 
     {
         padding-bottom: 35vh;
@@ -1644,11 +1790,10 @@
         right: 25vw;
     }  
 
-    #socials 
+    #footerPadding
     {
-        padding-bottom: 20vh;
+        padding: 10px;
     }
-
     
     .emailText
     {

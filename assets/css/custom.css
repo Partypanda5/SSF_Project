@@ -294,12 +294,22 @@ body
     padding-left: 15vw;
 }
 
+#socialContainer
+{
+    position: relative;
+    right: 8vw;
+}
+
 #socials
 {
     position: relative;
-    top: 14vh;
+    top: 10vh;
     text-align: right;
-    padding-bottom: 130px;
+}
+
+#footerPadding
+{
+    padding: 40px;
 }
 
 .footerText
