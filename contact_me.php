@@ -22,7 +22,7 @@ $message = strip_tags(htmlspecialchars($_POST['message']));
 $subscribe = $_POST['subscribe'];
 
 // Create the email and send the message
-$to = 'scoobdi@hotmail.com'; // Add your email address inbetween the '' replacing yourname@yourdomain.com - This is where the form will send a message to.
+$to = 'scoondi@hotmail.com'; // Add your email address inbetween the '' replacing yourname@yourdomain.com - This is where the form will send a message to.
 $email_subject = "Sabi Sabi Foundation Website Message From:  $name";
 $email_body = "You have received a new message from the Sabi Sabi Foundation website contact form.\n\n"."Here are the details:\n\nName: $name\n\nEmail: $email_address\n\nPhone: $phone\n\nMessage:\n\n$message\n\nSubscribe to the newsletter:\n$subscribe";
 $headers = "From: noreply@SabiSabiFoundation.org.za\n"; // This is the email address the generated message will be from. We recommend using something like noreply@yourdomain.com.
